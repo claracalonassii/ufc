@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>História dos Lutadores - UFC</title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #111;
+color: #ddd;
+}
+
+header {
+background: #000;
+border-bottom: 4px solid #e50914;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+color: #e50914;
+margin: 0;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: #fff;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #e50914;
+}
+
+.container {
+padding: 30px;
+max-width: 1100px;
+margin: auto;
+}
+
+h2 {
+color: #e50914;
+border-left: 4px solid #e50914;
+padding-left: 10px;
+margin-bottom: 30px;
+}
+
+.cards-lutas {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 25px;
+}
+
+.card-luta {
+background: #000;
+border: 2px solid #222;
+border-radius: 10px;
+padding: 20px;
+transition: transform 0.3s, border-color 0.3s;
+}
+
+.card-luta:hover {
+border-color: #e50914;
+}
+
+.lutadores {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-bottom: 15px;
+}
+
+.lutador {
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+}
+
+.vs {
+color: #e50914;
+font-weight: bold;
+}
+
+.info p {
+margin: 5px 0;
+text-align: center;
+font-size: 14px;
+}
+
+.lutador-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 6px;
+}
+
+.lutador-box img {
+width: 70px;
+height: 70px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #e50914;
+background-color: #000;
+}
+
+.lutador-box span {
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+}
+
+.lutadores2 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-bottom: 15px;
+margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1> Histórias dos Lutadores do UFC</h1>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">Lutas</a>
+<a href="#">Lutadores</a>
+<a href="#">História</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h2>Lendas do Octógono</h2>
+
+<div class="cards-lutas">
+
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://vejario.abril.com.br/wp-content/uploads/2016/11/4899_anderson-silva-jpg.jpeg?crop=1&resize=1212,909">
+<span>Anderson Silva</span>
+</div>
+</div>
+
+<div class="info">
+<p>Conhecido como "Spider", Anderson Silva é considerado um dos maiores lutadores da história do MMA. Dominou a categoria dos médios por anos, com defesas de cinturão históricas e um estilo único, combinando precisão, reflexos e provocação. Seu reinado no UFC marcou uma era inesquecível no esporte.</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReh6eaf25oWS-ZAmFuL3ql6fVVZOvMTM5tPw&s">
+<span>Charles Oliveira</span>
+</div>
+</div>
+
+<div class="info">
+<p>Vindo de origem humilde no Guarujá, Charles "Do Bronx" superou problemas de saúde na infância para se tornar campeão peso leve do UFC. Dono do recorde de finalizações e bônus de performance, é conhecido por sua agressividade e habilidade no jiu-jitsu, representando o Brasil com orgulho.</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwK-HLM2PvM6zDStpvIvc1e-ZRZQgo0RoE-Q&s">
+<span>Amanda Nunes</span>
+</div>
+</div>
+
+<div class="info">
+<p>A "Leoa" Amanda Nunes fez história ao ser campeã simultânea de duas categorias. Dominante, técnica e extremamente forte, derrotou grandes nomes como Ronda Rousey e Cris Cyborg. É amplamente considerada a maior lutadora feminina de todos os tempos.</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ESOcWH42NH3zn3aQSIHMmAAB0cQEqyvj-w&s">
+<span>Conor McGregor</span>
+</div>
+</div>
+
+<div class="info">
+<p>Carismático e polêmico, Conor McGregor revolucionou o UFC com seu estilo de luta e personalidade extravagante. Foi o primeiro campeão simultâneo de duas divisões no UFC. Sua habilidade no boxe e poder de nocaute o transformaram em um fenômeno mundial do esporte.</p>
+</div>
+</div>
+
+</body>
+</html>
